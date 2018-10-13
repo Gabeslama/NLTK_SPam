@@ -28,7 +28,7 @@ for mess_no,message in enumerate(messages[:10]):
     print(mess_no,message)
     print('\n')  
 
-messages = pd.read_csv('/Users/gabrielslama/Desktop/smsspamcollection/SMSSpamCollection',sep='\t',names=['label','message'])
+messages = pd.read_csv('SMSSpamCollection',sep='\t',names=['label','message'])
 
 #Data Analysis and Visualization
 messages.groupby('label').describe() 

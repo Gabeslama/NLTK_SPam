@@ -13,7 +13,7 @@ from sklearn.metrics import classification_report
 
 #nltk.download_shell()
 
-messages = [line.rstrip() for line in open('SMSSpamCollection')]
+messages = [line.rstrip() for line in open('smsspamcollection/SMSSpamCollection')]
 
 print(len(messages))
 
